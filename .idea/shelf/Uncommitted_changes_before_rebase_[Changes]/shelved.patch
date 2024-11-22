@@ -1,0 +1,195 @@
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	(revision 50c0c016aa93b47a8ed5357b99f15d00a96815ec)
++++ b/main.py	(date 1732211958430)
+@@ -1,0 +1,9 @@
++from src.service.service_user import ServiceUser
++
++service = ServiceUser()
++resultado = service.add_user("bhl","eng")
++print(resultado)
++print(service.store.bd[0].name)
++resultado2 = service.update_user("bhl","eng","bhl2","eng2")
++print(resultado2)
++print(service.store.bd[0].name)
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"f8d17915-aa1d-40d7-a50c-4f75f0317e02\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 7\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2oaXxomaStbxLhzp0HweEcZgDUD\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"f8d17915-aa1d-40d7-a50c-4f75f0317e02\" name=\"Changes\" comment=\"\" />\r\n      <created>1731108909556</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1731108909556</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 50c0c016aa93b47a8ed5357b99f15d00a96815ec)
++++ b/.idea/workspace.xml	(date 1732234869033)
+@@ -1,20 +1,142 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="f8d17915-aa1d-40d7-a50c-4f75f0317e02" name="Changes" comment="" />
++    <list default="true" id="f8d17915-aa1d-40d7-a50c-4f75f0317e02" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 7
+-}]]></component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Python Script" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 7
++}</component>
+   <component name="ProjectId" id="2oaXxomaStbxLhzp0HweEcZgDUD" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="1" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_existente.executor": "Run",
++    "Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_none_job.executor": "Run",
++    "Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_none_name.executor": "Run",
++    "Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_str_job.executor": "Run",
++    "Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_str_name.executor": "Run",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "git-widget-placeholder": "main",
++    "last_opened_file_path": "C:/Users/Bhl/PycharmProjects/Test01/tests"
++  }
++}]]></component>
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\Users\Bhl\PycharmProjects\Test01\tests" />
++    </key>
++  </component>
++  <component name="RunManager" selected="Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_str_name">
++    <configuration name="Python tests for test_service_user.TestServiceUser.test_add_user_falha_existente" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
++      <module name="Test01" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/service" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="_new_additionalArguments" value="&quot;&quot;" />
++      <option name="_new_target" value="&quot;test_service_user.TestServiceUser.test_add_user_falha_existente&quot;" />
++      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
++      <method v="2" />
++    </configuration>
++    <configuration name="Python tests for test_service_user.TestServiceUser.test_add_user_falha_none_job" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
++      <module name="Test01" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/service" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="_new_additionalArguments" value="&quot;&quot;" />
++      <option name="_new_target" value="&quot;test_service_user.TestServiceUser.test_add_user_falha_none_job&quot;" />
++      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
++      <method v="2" />
++    </configuration>
++    <configuration name="Python tests for test_service_user.TestServiceUser.test_add_user_falha_none_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
++      <module name="Test01" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/service" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="_new_additionalArguments" value="&quot;&quot;" />
++      <option name="_new_target" value="&quot;test_service_user.TestServiceUser.test_add_user_falha_none_name&quot;" />
++      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
++      <method v="2" />
++    </configuration>
++    <configuration name="Python tests for test_service_user.TestServiceUser.test_add_user_falha_str_job" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
++      <module name="Test01" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/service" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="_new_additionalArguments" value="&quot;&quot;" />
++      <option name="_new_target" value="&quot;test_service_user.TestServiceUser.test_add_user_falha_str_job&quot;" />
++      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
++      <method v="2" />
++    </configuration>
++    <configuration name="Python tests for test_service_user.TestServiceUser.test_add_user_falha_str_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
++      <module name="Test01" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/service" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="_new_additionalArguments" value="&quot;&quot;" />
++      <option name="_new_target" value="&quot;test_service_user.TestServiceUser.test_add_user_falha_str_name&quot;" />
++      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
++      <method v="2" />
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_str_name" />
++        <item itemvalue="Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_str_job" />
++        <item itemvalue="Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_none_job" />
++        <item itemvalue="Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_none_name" />
++        <item itemvalue="Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_existente" />
++      </list>
++    </recent_temporary>
+   </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"Test01\" project-jdk-type=\"Python SDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 50c0c016aa93b47a8ed5357b99f15d00a96815ec)
++++ b/.idea/misc.xml	(date 1731112471052)
+@@ -1,4 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="Black">
++    <option name="sdkName" value="Test01" />
++  </component>
+   <component name="ProjectRootManager" version="2" project-jdk-name="Test01" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file
