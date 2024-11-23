@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8d17915-aa1d-40d7-a50c-4f75f0317e02" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f8d17915-aa1d-40d7-a50c-4f75f0317e02" name="Changes" comment="Commit 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/service_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/service_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/service/test_service_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/service/test_service_user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,25 +35,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_existente.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_none_job.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_none_name.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_str_job.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_str_name.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Bhl/PycharmProjects/Test01/tests&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_existente.executor": "Run",
+    "Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_none_job.executor": "Run",
+    "Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_none_name.executor": "Run",
+    "Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_str_job.executor": "Run",
+    "Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_str_name.executor": "Run",
+    "Python tests.Python tests for test_service_user.TestServiceUser.test_remove_user_fail.executor": "Run",
+    "Python tests.Python tests for test_service_user.TestServiceUser.test_remove_user_falha_none_job.executor": "Run",
+    "Python tests.Python tests for test_service_user.TestServiceUser.test_remove_user_falha_none_name.executor": "Run",
+    "Python tests.Python tests for test_service_user.TestServiceUser.test_remove_user_falha_str_job.executor": "Run",
+    "Python tests.Python tests for test_service_user.TestServiceUser.test_remove_user_falha_str_name.executor": "Run",
+    "Python tests.Python tests for test_service_user.TestServiceUser.test_remove_user_success.executor": "Run",
+    "Python tests.Python tests for test_service_user.TestServiceUser.test_update_user_fail.executor": "Run",
+    "Python tests.Python tests for test_service_user.TestServiceUser.test_update_user_fail_job.executor": "Run",
+    "Python tests.Python tests for test_service_user.TestServiceUser.test_update_user_falha_none_job.executor": "Run",
+    "Python tests.Python tests for test_service_user.TestServiceUser.test_update_user_falha_none_name.executor": "Run",
+    "Python tests.Python tests for test_service_user.TestServiceUser.test_update_user_falha_str_job.executor": "Run",
+    "Python tests.Python tests for test_service_user.TestServiceUser.test_update_user_success.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Bhl/Desktop/Aulas da ETA/Teste Unitarios/eta_lab-main"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Bhl\PycharmProjects\Test01\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_str_name">
-    <configuration name="Python tests for test_service_user.TestServiceUser.test_add_user_falha_existente" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_service_user.TestServiceUser.test_update_user_falha_none_job">
+    <configuration name="Python tests for test_service_user.TestServiceUser.test_update_user_fail" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Test01" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,11 +76,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_service_user.TestServiceUser.test_add_user_falha_existente&quot;" />
+      <option name="_new_target" value="&quot;test_service_user.TestServiceUser.test_update_user_fail&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_service_user.TestServiceUser.test_add_user_falha_none_job" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_service_user.TestServiceUser.test_update_user_fail_job" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Test01" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,11 +91,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_service_user.TestServiceUser.test_add_user_falha_none_job&quot;" />
+      <option name="_new_target" value="&quot;test_service_user.TestServiceUser.test_update_user_fail_job&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_service_user.TestServiceUser.test_add_user_falha_none_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_service_user.TestServiceUser.test_update_user_falha_none_job" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Test01" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,11 +106,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_service_user.TestServiceUser.test_add_user_falha_none_name&quot;" />
+      <option name="_new_target" value="&quot;test_service_user.TestServiceUser.test_update_user_falha_none_job&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_service_user.TestServiceUser.test_add_user_falha_str_job" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_service_user.TestServiceUser.test_update_user_falha_none_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Test01" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,11 +121,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_service_user.TestServiceUser.test_add_user_falha_str_job&quot;" />
+      <option name="_new_target" value="&quot;test_service_user.TestServiceUser.test_update_user_falha_none_name&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_service_user.TestServiceUser.test_add_user_falha_str_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_service_user.TestServiceUser.test_update_user_falha_str_job" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Test01" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,17 +136,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_service_user.TestServiceUser.test_add_user_falha_str_name&quot;" />
+      <option name="_new_target" value="&quot;test_service_user.TestServiceUser.test_update_user_falha_str_job&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_str_name" />
-        <item itemvalue="Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_str_job" />
-        <item itemvalue="Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_none_job" />
-        <item itemvalue="Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_none_name" />
-        <item itemvalue="Python tests.Python tests for test_service_user.TestServiceUser.test_add_user_falha_existente" />
+        <item itemvalue="Python tests.Python tests for test_service_user.TestServiceUser.test_update_user_falha_none_job" />
+        <item itemvalue="Python tests.Python tests for test_service_user.TestServiceUser.test_update_user_falha_str_job" />
+        <item itemvalue="Python tests.Python tests for test_service_user.TestServiceUser.test_update_user_falha_none_name" />
+        <item itemvalue="Python tests.Python tests for test_service_user.TestServiceUser.test_update_user_fail_job" />
+        <item itemvalue="Python tests.Python tests for test_service_user.TestServiceUser.test_update_user_fail" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +166,42 @@
       <option name="presentableId" value="Default" />
       <updated>1731108909556</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit 2">
+      <option name="closed" value="true" />
+      <created>1732235033743</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732235033743</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 2" />
   </component>
 </project>

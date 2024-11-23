@@ -21,17 +21,17 @@ class ServiceUser:
             return "Usuario não adicionado - informações nao podem nulas"
 
     def remove_user(self, name, job):
-        if isinstance(name, str) and isinstance(job, str):
-            if name is not None and job is not None:
+        if name is not None and job is not None:
+             if isinstance(name, str) and isinstance(job, str):
                 for user in self.store.bd:
-                    if user.name == name and user.job ==job:
+                    if user.name == name and user.job == job:
                         self.store.bd.remove(user)
                         return "Usuario removido"
                 return "Usuario não existe"
-            else:
-                return "usuario não removido - informações nao podem nulas"
+             else:
+                return "Usuario não removido - algumas das variaveis nao sao str"
         else:
-            return "Usuario não removido - algumas das variaveis nao sao str"
+            return "Usuario não removido - informações nao podem nulas"
 
     def search_user(self, name):
         for user in self.store.bd:
@@ -40,15 +40,17 @@ class ServiceUser:
         return None
 
     def update_user(self,name,job, newname, newjob):
-        if isinstance(name, str) and isinstance(job, str):
-            if name is not None and job is not None:
+         if name is not None and job is not None:
+            if isinstance(name, str) and isinstance(job, str):
                 for user in self.store.bd:
                     if user.name == name and user.job == job:
                         user.name = newname
                         user.job = newjob
-                        return "usuario modificado"
+                        return "Usuario modificado"
                 return "Usuario nao encontrado"
             else:
-                return "Usuario não modificado - informações nao podem nulas"
-        else:
-            return "Usuario não modificado - algumas das variaveis nao sao str"
+                return "Usuario não modificado - algumas das variaveis nao sao str"
+         else:
+             return "Usuario não modificado - informações nao podem nulas"
+
+
